@@ -1,0 +1,49 @@
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/appsettings.Development.json
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/appsettings.json
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/User Information
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/User Information.deps.json
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/User Information.runtimeconfig.json
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/User Information.runtimeconfig.dev.json
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/User Information.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/ref/User Information.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/User Information.pdb
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/User Information.csprojAssemblyReference.cache
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/User Information.GeneratedMSBuildEditorConfig.editorconfig
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/User Information.AssemblyInfoInputs.cache
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/User Information.AssemblyInfo.cs
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/User Information.csproj.CoreCompileInputs.cache
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/User Information.MvcApplicationPartsAssemblyInfo.cs
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/User Information.MvcApplicationPartsAssemblyInfo.cache
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/staticwebassets/User Information.StaticWebAssets.Manifest.cache
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/staticwebassets/User Information.StaticWebAssets.xml
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/scopedcss/bundle/User Information.styles.css
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/User Information.RazorTargetAssemblyInfo.cache
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/User Information.csproj.CopyComplete
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/User Information.dll
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/ref/User Information.dll
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/User Information.pdb
+/home/aram/RiderProjects/User Information/User Information/obj/Debug/net5.0/User Information.genruntimeconfig.cache
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Microsoft.Extensions.Caching.Memory.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Microsoft.Extensions.Logging.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Microsoft.Extensions.Options.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Microsoft.Extensions.Primitives.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/System.Collections.Immutable.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/System.ComponentModel.Annotations.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/System.Runtime.CompilerServices.Unsafe.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Humanizer.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Npgsql.dll
+/home/aram/RiderProjects/User Information/User Information/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
