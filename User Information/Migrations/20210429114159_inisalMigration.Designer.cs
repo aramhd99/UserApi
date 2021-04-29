@@ -9,8 +9,8 @@ using User_Information;
 namespace User_Information.Migrations
 {
     [DbContext(typeof(UserDbContext))]
-    [Migration("20210428102907_userMigration")]
-    partial class userMigration
+    [Migration("20210429114159_inisalMigration")]
+    partial class inisalMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,13 +23,17 @@ namespace User_Information.Migrations
             modelBuilder.Entity("User_Information.models.User", b =>
                 {
                     b.Property<int>("Id")
-                        .HasColumnType("integer");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
                     b.Property<string>("Password")
                         .HasColumnType("text");
 
                     b.Property<string>("Username")
                         .HasColumnType("text");
+
+                    b.HasKey("Id");
 
                     b.ToTable("Users");
                 });

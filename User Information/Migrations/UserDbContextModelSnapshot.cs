@@ -21,13 +21,17 @@ namespace User_Information.Migrations
             modelBuilder.Entity("User_Information.models.User", b =>
                 {
                     b.Property<int>("Id")
-                        .HasColumnType("integer");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
                     b.Property<string>("Password")
                         .HasColumnType("text");
 
                     b.Property<string>("Username")
                         .HasColumnType("text");
+
+                    b.HasKey("Id");
 
                     b.ToTable("Users");
                 });

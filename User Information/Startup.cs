@@ -1,3 +1,4 @@
+using System.Linq;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -5,20 +6,21 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using User_Information.Controllers;
 
 namespace User_Information
 {
     public class Startup
     {
-        public string connectionString { get; set; }
+        private string ConnectionString { get; }
 
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            connectionString = configuration.GetConnectionString("defaultConnectionString");
+            ConnectionString = configuration.GetConnectionString("defaultConnectionString");
         }
 
-        public IConfiguration Configuration { get; }
+        private IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -31,7 +33,7 @@ namespace User_Information
             ));
             services.AddControllers();
             services.AddDbContext<UserDbContext>(op =>
-                op.UseNpgsql(Configuration.GetConnectionString("defaultConnectionString")));
+                op.UseNpgsql(ConnectionString));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "User_Information", Version = "v1"});
