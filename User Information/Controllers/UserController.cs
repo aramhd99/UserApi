@@ -9,7 +9,7 @@ namespace User_Information.Controllers
     public class UserController : ControllerBase
     {
         private readonly UserDbContext _context;
-        
+
         public UserController(UserDbContext context)
         {
             _context = context;
@@ -18,14 +18,13 @@ namespace User_Information.Controllers
         [HttpPost]
         public IActionResult Login(UserVM user)
         {
-            if (user.Username == "admin" && user.Password == "pass")
+            var _user = _context.Users.FirstOrDefault(u => u.Username == user.Username);
+            if (_user != null && _user.Password == user.Password)
             {
-                return Ok();
+                return Ok("welcome");
             }
-            else
-            {
-                return Unauthorized();
-            }
+
+            return NotFound("something went wrong");
         }
 
         [HttpGet("get/all/users")]
@@ -51,6 +50,27 @@ namespace User_Information.Controllers
                 Password = newUser.Password
             };
             _context.Users.Add(user);
+            _context.SaveChanges();
+            return Ok();
+        }
+
+        [HttpPut("update/user/{id}")]
+        public IActionResult UpdateUser(int id, [FromBody] UserVM User)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.Id == id);
+            if (user == null) return NotFound();
+            user.Username = User.Username;
+            user.Password = User.Password;
+            _context.SaveChanges();
+            return Ok(user);
+        }
+
+        [HttpDelete("delete/user/{id}")]
+        public IActionResult DeleteUser(int id)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.Id == id);
+            if (user == null) return NotFound();
+            _context.Users.Remove(user);
             _context.SaveChanges();
             return Ok();
         }
